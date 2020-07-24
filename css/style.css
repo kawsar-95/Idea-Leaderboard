@@ -1,92 +1,85 @@
-body{
-    background: #E5E5E5;
+body {
+  background: #e5e5e5;
 }
-main{
-    max-width: 870px;
-    
+main {
+  max-width: 870px;
 }
-.container-fluid{
-    max-width: 870px;
+.container-fluid {
+  max-width: 870px;
 }
-.blog, .course-part{
-    border: 1px solid #E5E5E5;
-    border-radius: 10px;
+.blog,
+.course-part {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
 }
-.navbar  img{
-    width: 50px;
+.navbar img {
+  width: 50px;
 }
 /* .player{
     display: flex;
     align-items: center;
 } */
-.player img{
-    width: 56px;
+.player img {
+  width: 56px;
 }
-.player p{
-    margin:10px;
+.player p {
+  margin: 10px;
 }
-.heading{
-    padding: 20px;
-    color: #562EFF; 
-    
-}
-
-
-.blog p{
-        color:#9F9F9F;   
-}
-.bloger-name{
-    color:#562EFF
+.heading {
+  padding: 20px;
+  color: #562eff;
 }
 
+.blog p {
+  color: #9f9f9f;
+}
+.bloger-name {
+  color: #562eff;
+}
 
-.blog img{
-    width: 177px;
-    
+.blog img {
+  width: 177px;
 }
-.card-deck{
-    max-width: 870px;
+.card-deck {
+  max-width: 870px;
 }
-.card{
-    border: none;
-    box-shadow: 5px 5px 5px gray;
+.card {
+  border: none;
+  box-shadow: 5px 5px 5px gray;
 }
-.card img{
-    width: 224px;
+.card img {
+  width: 224px;
 }
-.rating-star span{
-    color: #AEAEAE;
+.rating-star span {
+  color: #aeaeae;
 }
-.rating-star .checked{
-    color: orange;
+.rating-star .checked {
+  color: orange;
 }
-.time-count{
-    background: #FFE4E8;
-    padding: 2px 7px; 
-    border-radius: 15px;
-    transition: .7s;
+.time-count {
+  background: #ffe4e8;
+  padding: 2px 7px;
+  border-radius: 15px;
+  transition: 0.7s;
 }
-.time-count:hover{
-    background: #FEE5DF;
+.time-count:hover {
+  background: #fee5df;
 }
-.time-count img{
-    width: 20px;
+.time-count img {
+  width: 20px;
 }
-.card-footer{
-    border-top: none;
+.card-footer {
+  border-top: none;
 }
-@media (max-width:576px){
-    .blog{
-       height: 115px;
-   }
+@media (max-width: 576px) {
+  .blog {
+    height: 115px;
+  }
   .player {
-      display: block;
-      text-align: center;
+    display: block;
+    text-align: center;
   }
-  .heading{
-      text-align: center;
+  .heading {
+    text-align: center;
   }
-
 }
-
-
